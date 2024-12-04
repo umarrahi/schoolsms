@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
+
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
-
     <!-- plugin css -->
     <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"
         type="text/css" />
-
     <!-- preloader css -->
     <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css" />
-
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
@@ -24,8 +22,7 @@
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     <!-- Style CSS (Custom CSS) -->
-     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -335,77 +332,35 @@
                     <ul class="metismenu list-unstyled" id="side-menu">
                         <li class="menu-title" data-key="t-menu">Menu</li>
 
+                        <!-- Dashboard -->
                         <li>
                             <a href="index.html">
                                 <i data-feather="home"></i>
-                                <span data-key="t-dashboard">Dashboard</span>
+                                <span>Dashboard</span>
                             </a>
                         </li>
 
+                        <!-- Student -->
                         <li>
-                            <a href="javascript: void(0);" class="has-arrow">
-                                <i data-feather="grid"></i>
-                                <span data-key="t-apps">Apps</span>
+                            <a href="javascript: void(0);">
+                                <i data-feather="users"></i>
+                                <span data-key="t-students">Students</span>
                             </a>
-                            <ul class="sub-menu" aria-expanded="false">
-                                <li>
-                                    <a href="apps-calendar.html">
-                                        <span data-key="t-calendar">Calendar</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="apps-chat.html">
-                                        <span data-key="t-chat">Chat</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="javascript: void(0);" class="has-arrow">
-                                        <span data-key="t-email">Email</span>
-                                    </a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="apps-email-inbox.html" data-key="t-inbox">Inbox</a></li>
-                                        <li><a href="apps-email-read.html" data-key="t-read-email">Read Email</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" class="has-arrow">
-                                        <span data-key="t-invoices">Invoices</span>
-                                    </a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="apps-invoices-list.html" data-key="t-invoice-list">Invoice List</a>
-                                        </li>
-                                        <li><a href="apps-invoices-detail.html" data-key="t-invoice-detail">Invoice
-                                                Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" class="has-arrow">
-                                        <span data-key="t-contacts">Contacts</span>
-                                    </a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="apps-contacts-grid.html" data-key="t-user-grid">User Grid</a></li>
-                                        <li><a href="apps-contacts-list.html" data-key="t-user-list">User List</a></li>
-                                        <li><a href="apps-contacts-profile.html" data-key="t-profile">Profile</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript: void(0);" class="">
-                                        <span data-key="t-blog">Blog</span>
-                                        <span class="badge rounded-pill badge-soft-danger float-end"
-                                            key="t-new">New</span>
-                                    </a>
-                                    <ul class="sub-menu" aria-expanded="false">
-                                        <li><a href="apps-blog-grid.html" data-key="t-blog-grid">Blog Grid</a></li>
-                                        <li><a href="apps-blog-list.html" data-key="t-blog-list">Blog List</a></li>
-                                        <li><a href="apps-blog-detail.html" data-key="t-blog-details">Blog Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </li>
-
+                        <!-- Teacher -->
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i data-feather="user"></i>
+                                <span data-key="t-students">Teacher</span>
+                            </a>
+                        </li>
+                        <!-- Parents -->
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i data-feather="user"></i>
+                                <span data-key="t-students">Parents</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="javascript: void(0);" class="has-arrow">
                                 <i data-feather="users"></i>
@@ -586,18 +541,6 @@
                         </li>
 
                     </ul>
-
-                    <div class="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
-                        <div class="card-body">
-                            <img src="assets/images/giftbox.png" alt="">
-                            <div class="mt-4">
-                                <h5 class="alertcard-title font-size-16">Unlimited Access</h5>
-                                <p class="font-size-13">Upgrade your plan from a Free trial, to select ‘Business Plan’.
-                                </p>
-                                <a href="#!" class="btn btn-primary mt-2">Upgrade Now</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- Sidebar -->
             </div>
@@ -639,7 +582,8 @@
                                 <div class="card-body">
                                     <div class="row align-items-center">
                                         <div class="col-8">
-                                            <span class="text-muted mb-3 lh-1 d-block text-truncate font-size-18">Students</span>
+                                            <span
+                                                class="text-muted mb-3 lh-1 d-block text-truncate font-size-18">Students</span>
                                             <h4 class="mb-3">
                                                 <!-- $<span class="counter-value" data-target="865.2">0</span>k -->
                                                 <span class="font-size-24">190</span>
@@ -654,7 +598,7 @@
                                             </div> -->
                                         </div>
                                     </div>
-                                    
+
                                     <!-- <span class="w-48 h-48 bg-success-subtle text-success rounded-circle">
                                         <i class="bx bx-user font-size-24"></i>
                                     </span> -->
@@ -673,9 +617,10 @@
                                 <div class="card-body">
                                     <div class="row align-items-center">
                                         <div class="col-6">
-                                            <span class="text-muted mb-3 lh-1 d-block text-truncate">Parents</span>
+                                            <span
+                                                class="text-muted mb-3 lh-1 d-block text-truncate font-size-18">Parents</span>
                                             <h4 class="mb-3">
-                                                <span>45</span>
+                                                <span class="font-size-24">45</span>
                                             </h4>
                                         </div>
                                         <div class="col-6">
@@ -701,9 +646,10 @@
                                 <div class="card-body">
                                     <div class="row align-items-center">
                                         <div class="col-6">
-                                            <span class="text-muted mb-3 lh-1 d-block text-truncate">Teacher</span>
+                                            <span
+                                                class="text-muted mb-3 lh-1 d-block text-truncate font-size-18">Teacher</span>
                                             <h4 class="mb-3">
-                                                <span>10</span>
+                                                <span class="font-size-24">10</span>
                                             </h4>
                                         </div>
                                         <div class="col-6">
@@ -729,9 +675,10 @@
                                 <div class="card-body">
                                     <div class="row align-items-center">
                                         <div class="col-6">
-                                            <span class="text-muted mb-3 lh-1 d-block text-truncate">Books</span>
+                                            <span
+                                                class="text-muted mb-3 lh-1 d-block text-truncate font-size-18">Books</span>
                                             <h4 class="mb-3">
-                                                <span>17</span>
+                                                <span class="font-size-24">17</span>
                                             </h4>
                                         </div>
                                         <div class="col-6">
@@ -745,134 +692,6 @@
                                     </div>
                                 </div>
                                 <!-- end card body -->
-                            </div>
-                            <!-- end card -->
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end row-->
-
-                    <div class="row">
-                        <div class="col-xl-5">
-                            <!-- card -->
-                            <div class="card card-h-100">
-                                <!-- card body -->
-                                <div class="card-body">
-                                    <div class="d-flex flex-wrap align-items-center mb-4">
-                                        <h5 class="card-title me-2">Wallet Balance</h5>
-                                        <div class="ms-auto">
-                                            <div>
-                                                <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                    ALL
-                                                </button>
-                                                <button type="button" class="btn btn-soft-primary btn-sm">
-                                                    1M
-                                                </button>
-                                                <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                    6M
-                                                </button>
-                                                <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                    1Y
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row align-items-center">
-                                        <div class="col-sm">
-                                            <div id="wallet-balance" data-colors='["#777aca", "#5156be", "#a8aada"]'
-                                                class="apex-charts"></div>
-                                        </div>
-                                        <div class="col-sm align-self-center">
-                                            <div class="mt-4 mt-sm-0">
-                                                <div>
-                                                    <p class="mb-2"><i
-                                                            class="mdi mdi-circle align-middle font-size-10 me-2 text-success"></i>
-                                                        Bitcoin</p>
-                                                    <h6>0.4412 BTC = <span class="text-muted font-size-14 fw-normal">$
-                                                            4025.32</span></h6>
-                                                </div>
-
-                                                <div class="mt-4 pt-2">
-                                                    <p class="mb-2"><i
-                                                            class="mdi mdi-circle align-middle font-size-10 me-2 text-primary"></i>
-                                                        Ethereum</p>
-                                                    <h6>4.5701 ETH = <span class="text-muted font-size-14 fw-normal">$
-                                                            1123.64</span></h6>
-                                                </div>
-
-                                                <div class="mt-4 pt-2">
-                                                    <p class="mb-2"><i
-                                                            class="mdi mdi-circle align-middle font-size-10 me-2 text-info"></i>
-                                                        Litecoin</p>
-                                                    <h6>35.3811 LTC = <span class="text-muted font-size-14 fw-normal">$
-                                                            2263.09</span></h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end card -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-xl-7">
-                            <!-- card -->
-                            <div class="card card-h-100">
-                                <!-- card body -->
-                                <div class="card-body">
-                                    <div class="d-flex flex-wrap align-items-center mb-4">
-                                        <h5 class="card-title me-2">Invested Overview</h5>
-                                        <div class="ms-auto">
-                                            <select class="form-select form-select-sm">
-                                                <option value="MAY" selected="">May</option>
-                                                <option value="AP">April</option>
-                                                <option value="MA">March</option>
-                                                <option value="FE">February</option>
-                                                <option value="JA">January</option>
-                                                <option value="DE">December</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="row align-items-center">
-                                        <div class="col-sm">
-                                            <div id="invested-overview" data-colors='["#5156be", "#34c38f"]'
-                                                class="apex-charts"></div>
-                                        </div>
-                                        <div class="col-sm align-self-center">
-                                            <div class="mt-4 mt-sm-0">
-                                                <p class="mb-1">Invested Amount</p>
-                                                <h4>$ 6134.39</h4>
-
-                                                <p class="text-muted mb-4"> + 0.0012.23 ( 0.2 % ) <i
-                                                        class="mdi mdi-arrow-up ms-1 text-success"></i></p>
-
-                                                <div class="row g-0">
-                                                    <div class="col-6">
-                                                        <div>
-                                                            <p class="mb-2 text-muted text-uppercase font-size-11">
-                                                                Income</p>
-                                                            <h5 class="fw-medium">$ 2632.46</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div>
-                                                            <p class="mb-2 text-muted text-uppercase font-size-11">
-                                                                Expenses</p>
-                                                            <h5 class="fw-medium">-$ 924.38</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="mt-2">
-                                                    <a href="#" class="btn btn-primary btn-sm">View more <i
-                                                            class="mdi mdi-arrow-right ms-1"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <!-- end card -->
                         </div>
@@ -2040,16 +1859,15 @@
             </div>
             <!-- End Page-content -->
 
-
             <footer class="footer">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © Minia.
+                            <script>document.write(new Date().getFullYear())</script> © Digital School.
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by <a href="#!" class="text-decoration-underline">Themesbrand</a>
+                                Design & Develop by <a href="#!" class="text-decoration-underline">Digital School</a>
                             </div>
                         </div>
                     </div>
