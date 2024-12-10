@@ -22,7 +22,7 @@
     <!-- Responsive datatable examples -->
     <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
-        
+
     <!-- preloader css -->
     <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css" />
     <!-- Bootstrap Css -->
@@ -308,14 +308,14 @@
                         <li>
                             <a href="st-details.html">
                                 <i class="bx bx-user"></i>
-                                <span>Students</span>
+                                <span>Student</span>
                             </a>
                         </li>
                         <!-- Teacher -->
                         <li>
                             <a href="tc-details.html">
                                 <i class='bx bx-street-view'></i>
-                                <span>Teachers</span>
+                                <span>Teacher</span>
                             </a>
                         </li>
                         <!-- Parents -->
@@ -399,7 +399,7 @@
                 <!-- Sidebar -->
             </div>
         </div>
-        <!-- Left Sidebar End -->
+        <!-- ========== Left Sidebar End ========== -->
 
         <!-- ============================================================== -->
         <!-- Start right Content here -->
@@ -432,10 +432,11 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="text-sm-end mb-3">
-                                        <a href="st-add.html" class="btn btn-primary w-md"><i class="bx bx-plus"></i> Add Student</a>
+                                        <a href="st-add.html" class="btn btn-primary w-md"><i class="bx bx-plus"></i>
+                                            Add Student</a>
                                     </div>
 
-                                    <table id="datatable" class="table table-bordered dt-responsive  nowrap w-100">
+                                    <!-- <table id="datatable" class="table table-bordered dt-responsive  nowrap w-100">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -491,11 +492,43 @@
                                             </tr>
 
                                         </tbody>
-                                    </table>
+                                    </table> -->
 
+                                    <table id="datatable-buttons"
+                                        class="table table-bordered dt-responsive nowrap w-100">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Name</th>
+                                                <th>Father Name</th>
+                                                <th>Email</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td class="fw-bold">1</td>
+                                                <td>Afzal</td>
+                                                <td>Syed Noor</td>
+                                                <td>afzal@gmail.com</td>
+                                                <td>61</td>
+                                                <td>2011/04/25</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-light btn-sm">View</button>
+                                                </td>
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                        </div> <!-- end col -->
+
+                        </div>
+                        <!-- end col -->
                     </div>
                     <!-- end row -->
 
