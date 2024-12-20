@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Student List | Digital SMS</title>
+    <title>Syllabus List | Digital SMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesbrand" name="author" />
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description"/>
+    <meta content="Themesbrand" name="author"/>
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -22,7 +22,7 @@
     <!-- Responsive datatable examples -->
     <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
-
+        
     <!-- preloader css -->
     <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css" />
     <!-- Bootstrap Css -->
@@ -329,7 +329,7 @@
                         <!-- Academics -->
                         <li>
                             <a href="javascript: void(0);" class="has-arrow">
-                                <i class='bx bx-book-reader'></i>
+                                <i class='bx bx-book-reader' ></i>
                                 <span>Academics</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -350,13 +350,13 @@
                                 <li><a href="#">Student Attendance</a></li>
                                 <li><a href="#">Teacher Attendance</a></li>
                                 <li><a href="#">User Attendance</a></li>
-
+                               
                             </ul>
                         </li>
                         <!-- Exam -->
                         <li>
                             <a href="javascript: void(0);" class="has-arrow">
-                                <i class='bx bx-clipboard'></i>
+                                <i class='bx bx-clipboard' ></i>
                                 <span>Exam</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
@@ -364,7 +364,7 @@
                                 <li><a href="#">Exam Schedule</a></li>
                                 <li><a href="#">Grade</a></li>
                                 <li><a href="#">Exam Attendance</a></li>
-
+                               
                             </ul>
                         </li>
                         <!-- Announcement -->
@@ -377,7 +377,7 @@
                                 <li><a href="#">Notice</a></li>
                                 <li><a href="#">Event</a></li>
                                 <li><a href="#">Holiday</a></li>
-
+                               
                             </ul>
                         </li>
                         <!-- Setting -->
@@ -391,7 +391,7 @@
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="#">User</a></li>
                                 <li><a href="#">Menu</a></li>
-
+                                
                             </ul>
                         </li>
                     </ul>
@@ -413,12 +413,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0 font-size-18">Students</h4>
+                                <h4 class="mb-sm-0 font-size-18">Syllabus</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Students</a></li>
-                                        <li class="breadcrumb-item active">Student Details</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Syllabus</a></li>
+                                        <li class="breadcrumb-item active">Syllabus List</li>
                                     </ol>
                                 </div>
 
@@ -432,19 +432,20 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="text-sm-end mb-3">
-                                        <a href="st-add.html" class="btn btn-primary w-md"><i class="bx bx-plus"></i>
-                                            Add Student</a>
+                                        <a href="syllabus-add.html" class="btn btn-primary w-md"><i class="bx bx-plus"></i>
+                                            Add Syllabus</a>   
                                     </div>
 
                                     <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
-                                                <th>Name</th>
-                                                <th>Father Name</th>
-                                                <th>Email</th>
-                                                <th>Roll No</th>
+                                                <th>Title</th>
                                                 <th>Class</th>
+                                                <th>Uploader</th>
+                                                <th>Date</th>
+                                                <th>Description</th>
+                                                <th>File</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -452,14 +453,15 @@
                                         <tbody>
                                             <tr>
                                                 <td class="fw-bold">1</td>
-                                                <td>Afzal</td>
-                                                <td>Syed Noor</td>
-                                                <td>afzal@gmail.com</td>
-                                                <td>101</td>
+                                                <td>Physics</td>
                                                 <td>Matric</td>
+                                                <td>Ali Raza</td>
+                                                <td>12/20/2023</td>
+                                                <td>This is for midterm physics syllabus.</td>
+                                                <td>physics_syllabus.pdf</td>
                                                 <td class="d-flex align-items-center gap-2">
                                                     <a href="#">
-                                                        <i class='bx bx-show-alt text-primary fs-5'></i>
+                                                        <i class='bx bx-download text-primary fs-5'></i>
                                                     </a>
                                                     <a href="#">
                                                         <i class='bx bx-edit-alt text-warning fs-5'></i>
@@ -474,8 +476,7 @@
                                     </table>
                                 </div>
                             </div>
-
-                        </div>
+                        </div> 
                         <!-- end col -->
                     </div>
                     <!-- end row -->
@@ -507,7 +508,7 @@
 
 
     <!-- Right Sidebar -->
-    <div class="right-bar">
+     <div class="right-bar">
         <div data-simplebar class="h-100">
             <div class="rightbar-title d-flex align-items-center p-3">
 
