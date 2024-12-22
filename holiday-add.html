@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Add Class | Digital SMS</title>
+    <title>Add Holiday | Digital SMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -413,12 +413,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0 font-size-18">Class</h4>
+                                <h4 class="mb-sm-0 font-size-18">Holiday</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Class</a></li>
-                                        <li class="breadcrumb-item active">Add Class</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Holiday</a></li>
+                                        <li class="breadcrumb-item active">Add Holiday</li>
                                     </ol>
                                 </div>
 
@@ -434,34 +434,30 @@
                                 <div class="card-body">
                                     <form action="#">
                                         <div class="row gy-4">
-                                            <div class="col-sm-4 col-xs-4">
-                                                <label for="" class="form-label mb-8 h6">Class</label>
+                                            <div class="col-sm-6 col-xs-6">
+                                                <label for="" class="form-label mb-8 h6">Title</label>
                                                 <input type="text" class="form-control py-11" id=""
-                                                    placeholder="Enter Class Name">
+                                                    placeholder="Enter Holiday Title">
                                             </div>
-                                            <div class="col-sm-4 col-xs-4">
-                                                <label for="" class="form-label mb-8 h6">Class Numeric</label>
-                                                <input type="number" class="form-control py-11" id=""
-                                                    placeholder="Enter Class Number">
+                                            <div class="col-sm-6 col-xs-6">
+                                                <label for="" class="form-label mb-8 h6">Attach File</label>
+                                                <input type="file" class="form-control py-13" id="">
                                             </div>
-                                            
-                                            <div class="col-sm-4 col-xs-4">
-                                                <label for="" class="form-label mb-8 h6">Teacher</label>
-                                                <select id="" class="form-select py-9">
-                                                    <option value="1" disabled="Select Gender" selected="">Select Teacher
-                                                    </option>
-                                                    <option value="2">Mehmood Shafi</option>
-                                                    <option value="2">Ahmed</option>
-                                                    <option value="2">Zain</option>
-                                                </select>
+                                            <div class="col-sm-6 col-xs-6">
+                                                <label for="" class="form-label mb-8 h6">From Date</label>
+                                                <input type="date" class="form-control py-11" id="">
+                                            </div>
+                                            <div class="col-sm-6 col-xs-6">
+                                                <label for="" class="form-label mb-8 h6">To Date</label>
+                                                <input type="date" class="form-control py-11" id="">
                                             </div>
                                             <div class="col-sm-12 col-xs-12">
-                                                <label for="" class="form-label mb-8 h6">Notes</label>
-                                                <textarea id="" class="form-control" rows="3" placeholder="Enter Your Notes"></textarea>
+                                                <label for="" class="form-label mb-8 h6">Details</label>
+                                                <div id="ckeditor-classic"></div>
                                             </div>
-
+                                            
                                             <div class="mt-4">
-                                                <button type="submit" class="btn btn-primary w-md">Add Class</button>
+                                                <button type="submit" class="btn btn-primary w-md">Add Holiday</button>
                                             </div>
                                         </div>
 
@@ -645,6 +641,12 @@
         <script src="assets/libs/feather-icons/feather.min.js"></script>
         <!-- pace js -->
         <script src="assets/libs/pace-js/pace.min.js"></script>
+
+        <!-- ckeditor -->
+        <script src="assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+
+        <!-- init js -->
+        <script src="assets/js/pages/form-editor.init.js"></script>
 
         <!-- Required datatable js -->
         <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
